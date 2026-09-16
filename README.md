@@ -21,7 +21,7 @@ I completed **2 tasks per level** as required.
 ### Level 1 (Basic)
 | # | Task | Status |
 |---|------|--------|
-| 1 | Data Preprocessing for Machine Learning | ⬜ pending |
+| 1 | Data Preprocessing for Machine Learning | ✅ **done** → [notebook](level-1-basic/01_data_preprocessing.ipynb) |
 | 2 | Simple Linear Regression (house prices) | ⬜ pending |
 | 3 | KNN Classifier | ⬜ pending |
 
