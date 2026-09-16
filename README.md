@@ -28,7 +28,7 @@ I completed **2 tasks per level** as required.
 ### Level 2 (Intermediate)
 | # | Task | Status |
 |---|------|--------|
-| 1 | Logistic Regression (customer churn) | ⬜ pending |
+| 1 | Logistic Regression (customer churn) | ✅ **done** → [notebook](level-2-intermediate/01_logistic_regression_churn.ipynb) |
 | 2 | Decision Tree Classifier (iris species) | ⬜ pending |
 | 3 | K-Means Clustering | ⬜ pending |
 
