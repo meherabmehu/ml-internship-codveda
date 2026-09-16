@@ -15,7 +15,7 @@ fully-executed Jupyter notebook (0 errors on clean re-run).
 | 1 | [Linear Regression](level-1-basic/02_linear_regression_house_prices.ipynb) | simple + multiple OLS | test **R² = 0.67**, RMSE ≈ **$4.9k** on Boston Housing |
 | 2 | [Logistic Regression](level-2-intermediate/01_logistic_regression_churn.ipynb) | logit (+ class-weighted) | **AUC 0.825**; intl plan = **7.7× churn odds**; balanced variant lifts churn recall 0.18 → 0.76 |
 | 2 | [Decision Tree](level-2-intermediate/02_decision_tree_iris.ipynb) | tree + cost-complexity pruning | depth 5 → **3 leaves**, macro-F1 **0.89** on Iris |
-| 3 | [Random Forest](level-3-advanced/01_random_forest_churn.ipynb) | RF, CV-tuned (200 trees, depth 14) | **best model of the internship**: acc **0.946**, churn F1 **0.778** |
+| 3 | [Random Forest](level-3-advanced/01_random_forest_churn.ipynb) | RF, tuned + feature-engineered (400 trees) | **best of the internship**: acc **0.966**, churn F1 **0.870**, AUC **0.941** |
 | 3 | [SVM](level-3-advanced/02_svm_churn.ipynb) | linear vs RBF kernels | **AUC 0.901** (RBF beats linear); decision-boundary visualised with support vectors |
 
 ## 📖 One dataset, three notebooks — the churn story
@@ -27,7 +27,7 @@ different models, so the notebooks read as one honest model-selection story:
 |---|---|---|---|---|
 | Logistic regression | 0.853 | 0.258 | 0.179 | most interpretable, misses churners at default threshold |
 | Single decision tree | 0.909 | 0.690 | 0.716 | high-variance, memorises noise |
-| **Random forest** | **0.946** | **0.778** | 0.663 | champion — bagging kills the variance |
+| **Random forest** | **0.966** | **0.870** | 0.811 | champion — feature engineering + bagging |
 | SVM (RBF, tuned) | 0.916 | 0.678 | 0.621 | best AUC (0.901), great at ranking risk |
 
 Shared finding across all models: churn is driven by **total day minutes**,
