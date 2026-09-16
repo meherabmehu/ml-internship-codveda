@@ -35,7 +35,7 @@ I completed **2 tasks per level** as required.
 ### Level 3 (Advanced)
 | # | Task | Status |
 |---|------|--------|
-| 1 | Random Forest Classifier | ⬜ pending |
+| 1 | Random Forest Classifier | ✅ **done** → [notebook](level-3-advanced/01_random_forest_churn.ipynb) |
 | 2 | SVM for Binary Classification | ⬜ pending |
 | 3 | Neural Network with TensorFlow/Keras | ⬜ pending |
 
