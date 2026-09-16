@@ -1,0 +1,18 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# notebooks
+.ipynb_checkpoints/
+
+# os / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+
+# model artifacts (large binaries)
+*.h5
+*.pkl
