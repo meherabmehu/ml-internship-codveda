@@ -32,11 +32,11 @@ I completed **2 tasks per level** as required.
 | 2 | Decision Tree Classifier (iris species) | ✅ **done** → [notebook](level-2-intermediate/02_decision_tree_iris.ipynb) |
 | 3 | K-Means Clustering | ⬜ pending |
 
-### Level 3 (Advanced)
+### Level 3 (Advanced) — ✔ level complete
 | # | Task | Status |
 |---|------|--------|
 | 1 | Random Forest Classifier | ✅ **done** → [notebook](level-3-advanced/01_random_forest_churn.ipynb) |
-| 2 | SVM for Binary Classification | ⬜ pending |
+| 2 | SVM for Binary Classification | ✅ **done** → [notebook](level-3-advanced/02_svm_churn.ipynb) |
 | 3 | Neural Network with TensorFlow/Keras | ⬜ pending |
 
 ## 📊 Datasets
