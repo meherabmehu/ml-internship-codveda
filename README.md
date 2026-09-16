@@ -25,11 +25,11 @@ I completed **2 tasks per level** as required.
 | 2 | Simple Linear Regression (house prices) | ✅ **done** → [notebook](level-1-basic/02_linear_regression_house_prices.ipynb) |
 | 3 | KNN Classifier | ⬜ pending |
 
-### Level 2 (Intermediate)
+### Level 2 (Intermediate) — ✔ level complete
 | # | Task | Status |
 |---|------|--------|
 | 1 | Logistic Regression (customer churn) | ✅ **done** → [notebook](level-2-intermediate/01_logistic_regression_churn.ipynb) |
-| 2 | Decision Tree Classifier (iris species) | ⬜ pending |
+| 2 | Decision Tree Classifier (iris species) | ✅ **done** → [notebook](level-2-intermediate/02_decision_tree_iris.ipynb) |
 | 3 | K-Means Clustering | ⬜ pending |
 
 ### Level 3 (Advanced)
